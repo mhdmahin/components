@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+	<!-- css link -->
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="css/bootstrap-icons.css" />
+	
+  </head>
+  <body>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<!-- Button trigger modal -->
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+				  Launch demo modal
+				</button>
+
+				<!-- Modal -->
+				<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+					  <div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					  </div>
+					  <div class="modal-body">
+						<h1>Lorem Ipsum is simply dummy text of the printing</h1>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		1) Border and Rounded
+		<div class="box2 border border-dark border-4 rounded-circle"></div>
+		2) Background-Color
+		<div class="d-flex bg-primary mb-2">
+			<p>Lorem Ipsum is simply dummy text.</p>
+		</div>
+		<div class="d-inline-flex bg-primary mb-2">
+			<p>Lorem Ipsum is simply dummy text.</p>
+		</div><br />
+		3) Display and Flex
+		<div class="d-flex flex-row bg-info mb-2">
+			<div class="box3">Lorem Ipsum is</div>
+			<div class="box3">Lorem Ipsum is</div>
+			<div class="box3">Lorem Ipsum is</div>
+		</div>
+		
+		<div class="d-flex flex-row-reverse bg-info mb-2">
+			<div class="box3">Lorem 1</div>
+			<div class="box3">Lorem 2</div>
+			<div class="box3">Lorem 3</div>
+		</div>
+		<div class="d-flex flex-column bg-info mb-2">
+			<div class="box3">Lorem 1</div>
+			<div class="box3">Lorem 2</div>
+			<div class="box3">Lorem 3</div>
+		</div>
+		<div class="d-flex flex-column-reverse bg-info mb-2">
+			<div class="box3">Lorem 1</div>
+			<div class="box3">Lorem 2</div>
+			<div class="box3">Lorem 3</div>
+		</div>
+		4) Justify content
+		<div class="d-flex justify-content-start bg-dark mb-2">
+			<div class="box3">start 1</div>
+			<div class="box3">start 2</div>
+			<div class="box3">start 3</div>
+		</div>
+		<div class="d-flex justify-content-center bg-dark mb-2">
+			<div class="box3">content 1</div>
+			<div class="box3">content 2</div>
+			<div class="box3">content 3</div>
+		</div>
+		<div class="d-flex justify-content-end bg-dark mb-2">
+			<div class="box3">end 1</div>
+			<div class="box3">end 2</div>
+			<div class="box3">end 3</div>
+		</div>
+		<div class="d-flex justify-content-between bg-dark mb-2">
+			<div class="box3">between 1</div>
+			<div class="box3">between 2</div>
+			<div class="box3">between 3</div>
+		</div>
+		<div class="d-flex justify-content-around bg-dark mb-2">
+			<div class="box3">around 1</div>
+			<div class="box3">around 2</div>
+			<div class="box3">around 3</div>
+		</div>
+		<div class="d-flex justify-content-evenly bg-dark mb-2">
+			<div class="box3">evenly 1</div>
+			<div class="box3">evenly 2</div>
+			<div class="box3">evenly 3</div>
+		</div>
+		5) Align items 
+		<div class="d-flex bg-primary mh-400">
+			<div class="box3 flex-fill">Lorem Ipsum is simply dummy 1</div>
+			<div class="box3 flex-fill">Lorem Ipsum is 2</div>
+			<div class="box3 flex-fill">Lorem Ipsum is 3</div>
+		</div>
+		6)Auto Margins
+		<div class="d-flex bg-primary mb-3">
+			<div class="box3 me-auto p-2">Flex item</div>
+			<div class="box3 p-2">Flex item</div>
+			<div class="box3 p-2">Flex item</div>
+		</div>
+		7) Order
+		<div class="d-flex bg-primary">
+			<div class="box3 order-3">Lorem Ipsum is simply dummy 1</div>
+			<div class="box3 order-2">Lorem Ipsum is 2</div>
+			<div class="box3 order-1">Lorem Ipsum is 3</div>
+		</div>
+			
+	</div>
+	
+	
+	<!-- <div class="container"> -->
+		<!-- <i class="bi bi-watch"></i> -->
+	<!-- </div> -->
+	
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/script.js"></script>
+  </body>
+</html>
+
+
+
+
+	<!-- <div class="grid"> -->
+		<!-- <div class="row"> -->
+			<!-- <div class="box1 col-4 col-md-4 col-sm-6">1</div> -->
+			<!-- <div class="box2 col-4 col-md-4 order-sm-3 row-sm col-sm-12">2</div> -->
+			<!-- <div class="box3 col-4 col-md-4 col-sm-6 order-md-3 order-sm-2">3</div> -->
+		<!-- </div> -->
+	<!-- </div> -->
